@@ -10,7 +10,6 @@ public class Roulette {
         Roll currentRoll = new Roll();
         String color = (currentRoll.getColour() == 0)? "red":"black";
         System.out.println("The roulette landed on a "+color+" "+currentRoll.getNum());
-        System.out.println(currentRoll.toString());
         System.out.println("Pick a number between 0-36");
         int num = input.nextInt();
         System.out.println("Is it going to be red[0] or black[1]?");
